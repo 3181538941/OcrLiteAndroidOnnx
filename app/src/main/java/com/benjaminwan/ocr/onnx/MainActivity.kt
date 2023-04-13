@@ -4,22 +4,19 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.benjaminwan.ocr.onnx.databinding.ActivityMainBinding
+import com.benjaminwan.ocr.onnx.databinding.ActivityLeoMainBinding
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityLeoMainBinding
 
     private fun initViews() {
-        binding.galleryBtn.setOnClickListener(this)
-        binding.cameraBtn.setOnClickListener(this)
-        binding.imeiBtn.setOnClickListener(this)
-        binding.plateBtn.setOnClickListener(this)
-        binding.idCardBtn.setOnClickListener(this)
+        binding.myAlbumBtn.setOnClickListener(this)
+        binding.myCameraBtn.setOnClickListener(this)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityLeoMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initViews()
     }
@@ -27,6 +24,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(view: View?) {
         view ?: return
         when (view.id) {
+
+            R.id.myAlbumBtn -> {
+                startActivity(Intent(this, GalleryActivity::class.java))
+            }
+            R.id.myCameraBtn -> {
+                startActivity(Intent(this, CameraActivity::class.java))
+            }
+
             R.id.galleryBtn -> {
                 startActivity(Intent(this, GalleryActivity::class.java))
             }

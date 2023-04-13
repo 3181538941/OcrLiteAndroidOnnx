@@ -11,7 +11,7 @@
             android:text="@string/open_camera"
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:id="@+id/camera"
+            android:id="@+id/myCameraBtn"
             android:background="@drawable/btn_selector_main"
             android:onClick="onClick"
             style="@style/BigTextContent_main" />
@@ -20,7 +20,7 @@
             android:text="@string/open_album"
             android:layout_width="match_parent"
             android:layout_height="91dp"
-            android:id="@+id/album"
+            android:id="@+id/myAlbumBtn"
             style="@style/BigTextContent_black"
             android:background="@drawable/btn_selector" />
 
