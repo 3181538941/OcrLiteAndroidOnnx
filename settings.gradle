@@ -1,5 +1,9 @@
 pluginManagement {
     repositories {
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter/' }
+        maven { url 'https://maven.aliyun.com/repository/central/' }
         gradlePluginPortal()
         google()
         mavenCentral()
@@ -8,13 +12,17 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter/' }
+        maven { url 'https://maven.aliyun.com/repository/central/' }
         google()
         mavenCentral()
-        maven { url "https://jitpack.io" }
-        jcenter()
-        flatDir {
-            dirs 'common-aar'
-        }
+//        maven { url "https://jitpack.io" }
+//        jcenter()
+//        flatDir {
+//            dirs 'common-aar'
+//        }
     }
 }
 rootProject.name = "OcrLiteAndroidOnnx"
