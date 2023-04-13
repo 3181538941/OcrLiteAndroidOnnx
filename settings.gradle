@@ -18,11 +18,11 @@ dependencyResolutionManagement {
         maven { url 'https://maven.aliyun.com/repository/central/' }
         google()
         mavenCentral()
-//        maven { url "https://jitpack.io" }
-//        jcenter()
-//        flatDir {
-//            dirs 'common-aar'
-//        }
+        maven { url "https://jitpack.io" }
+        jcenter()
+        flatDir {
+            dirs 'common-aar'
+        }
     }
 }
 rootProject.name = "OcrLiteAndroidOnnx"

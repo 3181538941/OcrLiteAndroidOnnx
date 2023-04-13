@@ -4,14 +4,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="#F9F9F9"
         tools:context=".MainActivity">
-
 
     <Button
             android:text="@string/open_camera"
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:id="@+id/cameraBtn"
+            android:id="@+id/camera"
             android:background="@drawable/btn_selector_main"
             android:onClick="onClick"
             style="@style/BigTextContent_main" />
@@ -31,30 +31,4 @@
             android:id="@+id/history"
             style="@style/BigTextContent_black"
             android:background="@drawable/btn_selector" />
-
-    <Button
-            android:id="@+id/galleryBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="相册识别" />
-
-
-    <Button
-            android:id="@+id/imeiBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="手机IMEI号识别" />
-
-    <Button
-            android:id="@+id/plateBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="车牌识别" />
-
-    <Button
-            android:id="@+id/idCardBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="身份证人像面识别" />
-
 </LinearLayout>
