@@ -7,19 +7,22 @@
         android:background="#F9F9F9"
         tools:context=".MainActivity">
 
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="220dp" />
+
     <Button
             android:text="@string/open_camera"
             android:layout_width="match_parent"
-            android:layout_height="88dp"
+            android:layout_height="@dimen/button_big_height"
             android:id="@+id/myCameraBtn"
             android:background="@drawable/btn_selector_main"
-            android:onClick="onClick"
             style="@style/BigTextContent_main" />
 
     <Button
             android:text="@string/open_album"
             android:layout_width="match_parent"
-            android:layout_height="91dp"
+            android:layout_height="@dimen/button_big_height"
             android:id="@+id/myAlbumBtn"
             style="@style/BigTextContent_black"
             android:background="@drawable/btn_selector" />
@@ -27,7 +30,7 @@
     <Button
             android:text="@string/history_record"
             android:layout_width="match_parent"
-            android:layout_height="91dp"
+            android:layout_height="@dimen/button_big_height"
             android:id="@+id/history"
             style="@style/BigTextContent_black"
             android:background="@drawable/btn_selector" />
