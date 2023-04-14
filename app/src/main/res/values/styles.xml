@@ -90,5 +90,9 @@
         <item name="android:textSize">@dimen/button_big_font_size</item>
     </style>
 
+    <style name="DialogShowResultFont">
+        <item name="android:textSize">24dp</item>
+    </style>
+
 
 </resources>
