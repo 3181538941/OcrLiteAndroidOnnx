@@ -162,28 +162,28 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/clearBtn"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="清除"
-            android:textSize="12sp" />
+                android:id="@+id/clearBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="清除"
+                android:textSize="@dimen/camera_view_font_size" />
 
         <Button
-            android:id="@+id/detectBtn"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="识别"
-            android:textSize="12sp" />
+                android:id="@+id/detectBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="识别"
+                android:textSize="@dimen/camera_view_font_size" />
 
         <Button
-            android:id="@+id/stopBtn"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="停止"
-            android:textSize="12sp" />
+                android:id="@+id/stopBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="停止"
+                android:textSize="@dimen/camera_view_font_size" />
 
     </LinearLayout>
 
@@ -199,7 +199,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="识别结果"
-            android:textSize="12sp" />
+            android:textSize="@dimen/camera_view_font_size" />
 
         <Button
             android:id="@+id/debugBtn"
@@ -207,7 +207,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="调试信息"
-            android:textSize="12sp" />
+            android:textSize="@dimen/camera_view_font_size" />
 
     </LinearLayout>
 

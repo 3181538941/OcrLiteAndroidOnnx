@@ -172,7 +172,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="选图"
-            android:textSize="12sp" />
+            android:textSize="@dimen/camera_view_font_size" />
 
         <Button
             android:id="@+id/detectBtn"
@@ -180,7 +180,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="识别"
-            android:textSize="12sp" />
+            android:textSize="@dimen/camera_view_font_size" />
 
         <Button
             android:id="@+id/stopBtn"
@@ -188,7 +188,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="停止"
-            android:textSize="12sp" />
+            android:textSize="@dimen/camera_view_font_size" />
 
     </LinearLayout>
 
@@ -212,16 +212,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="识别结果"
-            android:textSize="12sp" />
+            android:text="结果"
+            android:textSize="@dimen/camera_view_font_size" />
 
         <Button
             android:id="@+id/debugBtn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="调试信息"
-            android:textSize="12sp" />
+            android:text="调试"
+            android:textSize="@dimen/camera_view_font_size" />
 
     </LinearLayout>
 

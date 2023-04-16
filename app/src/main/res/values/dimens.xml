@@ -32,6 +32,8 @@
     <dimen name="button_big_font_size">48dp</dimen>
     <dimen name="button_big_height">100dp</dimen>
 
+    <dimen name="camera_view_font_size">30dp</dimen>
+
 
     <!-- Large Item -->
     <dimen name="large_item_padding_vertical">15dp</dimen>

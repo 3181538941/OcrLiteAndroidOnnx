@@ -27,11 +27,11 @@
             style="@style/BigTextContent_black"
             android:background="@drawable/btn_selector" />
 
-    <Button
-            android:text="@string/history_record"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/button_big_height"
-            android:id="@+id/history"
-            style="@style/BigTextContent_black"
-            android:background="@drawable/btn_selector" />
+<!--    <Button-->
+<!--            android:text="@string/history_record"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/button_big_height"-->
+<!--            android:id="@+id/history"-->
+<!--            style="@style/BigTextContent_black"-->
+<!--            android:background="@drawable/btn_selector" />-->
 </LinearLayout>
