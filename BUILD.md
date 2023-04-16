@@ -25,6 +25,7 @@ OcrLiteAndroidNcnn/OcrLibrary/src/sdk
 ```
 
 6. onnxruntime-1.14.0-android-shared.7z，[下载地址](https://github.com/RapidAI/OnnxruntimeBuilder/releases/tag/1.14.0)
+7. setting-Build-Build Tools-Gradle-Gradle JDK: >= 11
 
 * 解压后目录结构为
 

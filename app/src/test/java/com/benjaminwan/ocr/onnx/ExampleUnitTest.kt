@@ -1,8 +1,12 @@
 package com.benjaminwan.ocr.onnx
 
+import android.content.ContentValues
+import com.benjaminwan.ocr.onnx.models.HistoryContract
+import com.benjaminwan.ocr.onnx.utils.SQLiteDBHelper
+import org.junit.Assert.assertEquals
+import org.junit.Before
 import org.junit.Test
-
-import org.junit.Assert.*
+import java.time.LocalDateTime
 
 /**
  * Example local unit test, which will execute on the development machine (host).
